@@ -10,14 +10,14 @@ body {
    align-items: center;
    justify-content: space-between;
    height: 80px;
-   background:  #FFFFFF;
+   background:  white;
+   width: 100%;
   }
 
 
   .hlogo{
     height: 58.499996185302734px;
     width: 177px;
-    left: 82px;
     top: 15px;
     border-radius: 0px;
 
@@ -87,37 +87,53 @@ body {
     align-items: center;
     list-style: none;
     padding: 0;
-    /* text-align: center; */
     color: black;
   }
   
-  .navbar ul li {
+  .lIM {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    width: 300px;
+    margin-bottom: 10px;
+    width: 100%;
     height: 50px;
-    color: blue;
-   
+    color: #040338;
+    text-align: center;
     
   }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    transition: color 0.3s ease-in-out;
-  
+
+  .lIM li{
+    margin-left: 20px;
   }
   
-  .navbar ul li a:hover {
+
+  .lIM img{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+ 
+  }
+
+
+  .navbar .lIM a {
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+   
+  }
+  
+  .lIM  a:hover {
     color: white;
 
   }
 
-  .navbar ul li:hover{
-    background: blue;
+  .lIM  img:hover {
+    color: white;
+
+  }
+
+
+  .navbar ul .lIM:hover{
+    background: #040338;
     color: white;
   }
   
@@ -260,10 +276,14 @@ body {
 
   .sub-btm{
    display: flex;
-   /* justify-content: center; */
+   justify-content: center;
    align-items: center;
    flex-direction: column;
    height: 400px;
+  }
+
+  .sub-btm h1{
+    margin-left: 10px;
   }
 
   .div1{
@@ -280,6 +300,7 @@ body {
 
   .one{
     display: flex;
+    align-items: center ;
     height: 100px;
     width: 509.31524658203125px;
     left: 0px;
@@ -292,9 +313,15 @@ body {
     /* margin-top: 5px; */
 
   }
+  .one img{
+    height: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
 
   .one1{
     display: flex;
+    align-items: center ;
     height: 100px;
     width: 509.31524658203125px;
     left: 0px;
@@ -307,7 +334,14 @@ body {
 
   }
 
+  .one1 img{
+    height: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
   .two{ display: flex;
+    align-items: center ;
     height: 100px;
     width: 509.31524658203125px;
     left: 0px;
@@ -318,13 +352,17 @@ body {
     border-style:solid;
     border-width: 1px;
     border-color: #F6B26B;
+  }
 
-
+  .two img{
+    height: 30px;
+    height: 30px;
+    margin-left: 10px;
   }
 
   .two2{
     display: flex;
-    flex-direction: column;
+    align-items: center ;
     height: 100px;
     width: 509.31524658203125px;
     left: 0px;
@@ -337,6 +375,13 @@ body {
     border-color: #F6B26B;
 
   }
+
+  .two2 img{
+    height: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
 
   /* footer starts here */
   footer{
@@ -345,7 +390,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 30px;
-    width: 100%;
     background: #020066;
     margin-top: 10px;
     font-size: 22px;
