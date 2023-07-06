@@ -67,22 +67,34 @@ button{width: 100px;
         background: rgb(22, 22, 80);
         border: 0;
         color: white;
-           margin-left: 33rem;
+        margin-left: 33rem;
+}
+
+.par{ display: flex;
+justify-content: center;
+margin-left: 22rem;
+margin-top: -20px;}
+
+span{
+    font-weight: bolder;
+    color: rgb(22, 22, 80);
 }
 
 .footer{
+    display: flex;
+    justify-content: space-between;
     height: 100px;
-    background: black;
+    background: #F6B26B;
     display: flex;
     align-items: center;
-    background: #f0cda8;
 
 }
 
 .footer img{
-    height: 100%;
-    margin-top: 10px;
-    height: 50px;
-    margin-left: 25px;
+    height: 80px;
+    margin-top: 0;
+    width: 200px;
+    padding: 10px;
+    position:absolute;
 
 }
