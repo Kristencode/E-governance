@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: hind;
+  }
+  
+  
+  .head{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 80px;
+   background:  whitesmoke;
+   width: 100%;
+   box-shadow: 5px 5px rgb(201, 199, 199);
+  }
+
+
+  .hlogo{
+    height: 58.499996185302734px;
+    width: 177px;
+    top: 15px;
+    border-radius: 0px;
+
+  }
+
+  .head-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .close{
+    width: 25px;
+    height: 25px;
+  }
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .menu-btn__burger,
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: "";
+    top: -10px;
+  }
+  
+  .menu-btn__burger::after {
+    top: 10px;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 100%;
+    color: black;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    color: black;
+  }
+  
+  .lIM {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    color: #040338;
+    text-align: center;
+    
+  }
+
+  .lIM li{
+    margin-left: 20px;
+  }
+  
+
+  .lIM img{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+ 
+  }
+
+
+  .navbar .lIM a {
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+   
+  }
+  
+  .lIM  a:hover {
+    color: white;
+
+  }
+
+  .lIM  img:hover {
+    color: white;
+
+  }
+
+
+  .navbar ul .lIM:hover{
+    background: #040338;
+    color: white;
+  }
+  
+  .navbar.open {
+    transform: translateX(0);
+  }
+  
+  .navbar.open li {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.2s;
+  }
+  
+  .navbar.open li:nth-child(2) {
+    transition-delay: 0.3s;
+  }
+  
+  .navbar.open li:nth-child(3) {
+    transition-delay: 0.4s;
+  }
+  
+  .navbar.open li:nth-child(4) {
+    transition-delay: 0.5s;
+  }
+  
+  .navbar.open li:nth-child(5) {
+    transition-delay: 0.6s;
+  }
+  
+  /* profile starts here */
+
+  .hed{
+    display: flex;
+    justify-content: center;
+    color: #F7840D;
+    font-size: 20px;
+
+  }
+
+  .exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 400px;
+    margin-top: 0%;
+  }
+
+  .exp1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 400px;
+    margin-top: 50px;
+  }
+
+
+  .exp img{
+    width: 250px;;
+    height: 300px;
+  }
+
+  .exp1 img{
+    width: 250px;;
+    height: 300px;
+  }
+
+
+  .h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 106.66666412353516px;
+    background: #CCD7FF;
+     margin-top: 0%;
+    color: #020066;
+    margin-top: -4px;
+  }
+
+.h p{
+  margin-top: -20px;
+}
+
+.h h1{
+  margin-top: 0%;
+}
+
+  .hh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 106.66666412353516px;
+    background: #F6B26B;
+    color: #020066;
+    margin-top: -4px;
+  }
+
+  .hh p{
+    
+      margin-top: -20px;
+    }
+
+    .hh h1{
+      margin-top: 0%;
+    }
+
+  .pro{
+    margin-left: 50px;
+  }
+
+  .pro1{
+    margin-left: 50px;
+  }
+
+  footer{
+    width: 100%;
+    height: 20px;
+  background: whitesmoke;
+  margin-top: 10px;
+  }
+
+  
+ 
