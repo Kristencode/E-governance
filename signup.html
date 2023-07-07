@@ -1,14 +1,14 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Hind:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet"  href="/styles/login.css">
-    <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/signup.css">
+    <title>signup</title>
 </head>
 <body>
     <section class="all">
@@ -21,17 +21,26 @@
     <section class="form">
     
          <div class="iinput">
-                <input type="Username" name="login" placeholder="UserName" required id="UserName" />
+                <input type="name" name="login" placeholder="Name"  id="UserName" required >
+
+                <input type="Sector" name="login" placeholder="Sector" required id="UserName" />
         
+                <input type="Email" name="Password" required placeholder="Email" id="password" />
+
                 <input type="password" name="Password" required placeholder="Password" id="password" />
+
+                <input type="password" name="Password" required placeholder="Confirm Password" id="password" />
          </div>
 
     </section>
 
     <div class="Btn">
         <button>
-            <a class="btn" id="login" onclick="handleLogin()">Log in</a>
-          </button>
+            <a class="btn" id="Signup" onclick="handleSignup()">Sign Up</a>
+        </button>
+    </div>
+    <div class="login">
+        <p>Already have an account?<a href="login.html">login here</a></p>
     </div>
 
     <footer class="footer">
