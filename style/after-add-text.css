@@ -1,0 +1,141 @@
+.head{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 80px;
+   background:  white;
+   width: 100%;
+   border-bottom:3px solid whitesmoke;
+  }
+
+.hlogo{
+    height: 58.499996185302734px;
+    width: 177px;
+    top: 15px;
+    border-radius: 0px;
+
+}
+
+.arrow-back {
+
+    height: 44px;
+    width: 150px;
+    padding-left: 87px;
+    padding-top: 50px;
+}
+
+.header {
+    text-align: center;
+  }
+  
+  .heading {
+    font-family: Hind;
+    font-size: 30px;
+    color: #F7840D;
+    font-weight: 600;
+  }
+    
+  .select {
+    height: 55px;
+    width: 400px;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: #908fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 90px;
+  }
+  
+
+  select option[disabled]:first-child {
+    color: #908fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .select option{
+
+    background-color: white;
+    color: #020066;
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+
+
+.add {
+
+    border: 1px solid #020066;
+    height: 40px;
+    width: 1100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 2rem;
+    color: #020066;
+    font-size: 16px;
+    font-family: Hind;
+    font-weight: 300;
+}
+
+textarea {
+     display: flex;
+    height: 500px;
+    width: 1100px;
+    margin-left: 90px;
+    padding-right: 2;
+    margin-top: .5rem;
+     background: #CCD7FF;
+}
+
+textarea::placeholder {
+    color: #999;
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+.container {
+    text-align: right;
+  }
+  
+  .send-button {
+    background-color: #CCD7FF;
+    color: #fff;
+    padding: 10px 20px ;
+    border: none;
+    margin-right: 5rem;
+    margin-top: 2rem ;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .send-button:hover{
+    background: white;
+    color:  #020066;
+    
+  }
+
+
+    .textarea {
+
+        
+        width: 1090px;
+        height: 770px;
+        margin-left: 90px;
+        margin-top: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .textarea p {
+
+        font-family: Hind;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 32.02px;
+        color: #000000;
+    }

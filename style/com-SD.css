@@ -1,0 +1,77 @@
+.head{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 80px;
+   background:  white;
+   width: 100%;
+   border-bottom:3px solid whitesmoke;
+  }
+
+.hlogo{
+    height: 58.499996185302734px;
+    width: 177px;
+    top: 15px;
+    border-radius: 0px;
+
+}
+
+.arrow-back {
+
+    height: 44px;
+    width: 150px;
+    padding-left: 87px;
+    padding-top: 50px;
+}
+
+.header {
+    text-align: center;
+  }
+  
+  .heading {
+    font-family: Hind;
+    font-size: 30px;
+    color: #F7840D;
+    font-weight: 600;
+  }
+  
+  .subheading {
+    font-size: 16px;
+    color: #020066;
+    font-family: Hind;
+    font-weight: 600;
+
+  }
+
+  .para {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: Hind;
+    line-height: 28.82px;
+    padding-left: 80px;
+
+  }
+
+  .container-reply {
+      color: #020066;
+      height: 50px;
+      width: 100;
+      background-color:#CCD7FF;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: 80px;
+      margin-top: 90px;
+      font-size: 24px;
+      font-family: Hind;
+      font-weight: 600;
+  }
+
+
+
+
+
+  
