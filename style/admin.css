@@ -14,8 +14,7 @@ body {
    width: 100%;
    box-shadow: 5px 5px rgb(201, 199, 199);
   }
-
-
+  
   .hlogo{
     height: 58.499996185302734px;
     width: 177px;
@@ -81,6 +80,7 @@ body {
     transition: transform 0.3s ease-in-out;
   }
   
+
   .navbar ul {
     display: flex;
     flex-direction: column;
