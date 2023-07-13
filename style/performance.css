@@ -12,6 +12,7 @@ body {
    height: 80px;
    background:  white;
    width: 100%;
+   border-bottom: 2px solid whitesmoke;
   }
 
 
