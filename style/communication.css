@@ -10,8 +10,9 @@ body {
  align-items: center;
  justify-content: space-between;
  height: 80px;
- background:  white;
+ background:  whitesmoke;
  width: 100%;
+ box-shadow: 5px 5px rgb(201, 199, 199);
 }
 
 
