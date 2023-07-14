@@ -12,6 +12,9 @@
       });
       });
 
+      //end of hamburger function
+
+
   let time = document.getElementById("current_time")
 
 setInterval(()=>{
@@ -19,6 +22,8 @@ setInterval(()=>{
 time.innerHTML= d.toLocaleTimeString();
     
 }, 1000);
+
+//end of time function
 
 
 const container = document.querySelector('.container');

@@ -18,23 +18,23 @@ body {
 .hlogo{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+ 
  flex-direction: column;
-  background: white;
   height: 80px;
   border-radius: 0px;
 
 }
 
 .hlogo img{
-  margin-top: 15px;
+  margin-top: -10px;
 
 }
 
 #current_time{
-
-  margin-top: 0;
-  font-size: 18px;
+  /* background: #F6B26B; */
+  color: #F7840D;
+  margin-top: -10px;
+  font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,8 +188,9 @@ body {
   /* end of hearder/nav */
 
   .blue{
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
     height: 600px;
     background:  #020066;
     margin-top: -18px;
@@ -197,11 +198,11 @@ body {
  
   .first-h1{
     font-family: Alegreya Sans SC;
-   font-size: 14px;
+   font-size: 35px;
     letter-spacing: 2px;
     color: white;
     margin-left: 10px;
-    width: 300px;
+    /* width: 300px; */
 
 
   }
@@ -219,8 +220,9 @@ body {
   .middle{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    margin-right: 50px;
   }
 
   .mddle{
@@ -241,8 +243,8 @@ body {
     align-items: center;
    justify-content: center;
    color: #020066;
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
     background: #F6B26B;
     margin-left: 40px;
     border-radius: 5px;
@@ -260,8 +262,8 @@ body {
     flex-direction: column;
     align-items: center;
    justify-content: center;
-    width: 300px;
-    height: 200px;
+   width: 150px;
+   height: 100px;
     background: #CCD7FF;
     color: #020066;
     margin-left: 40px;
@@ -410,12 +412,8 @@ body {
 
   /* footer starts here */
   footer{
-    display: flex;
-   
-    justify-content: space-between;
     height: 30px;
     background: #020066;
-    /* margin-top: 10px; */
     font-size: 22px;
     color: white;
     height: 100%;
@@ -433,7 +431,7 @@ body {
 
  .trans {
   padding: 1px;
-
+  height: 100%;
   display: flex;
     animation: slideInleft 10s ease-in 
     0s infinite normal none;
@@ -442,5 +440,5 @@ body {
 
   .trans p{
    margin-left: 20px;
-   /* width: 100%; */
+   width: 100%;
   }
