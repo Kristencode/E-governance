@@ -81,6 +81,7 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+
 .navbar ul {
   display: flex;
   flex-direction: column;
@@ -217,11 +218,6 @@ justify-content:flex-s; */
   padding-bottom: 40px;
 }
 
-.circle-container{
-
-  position: relative;
-
-}
 
 .circle1 {
   position: absolute;
@@ -248,7 +244,6 @@ justify-content:flex-s; */
 }
 
 .circle3 {
-  position: absolute;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
@@ -261,6 +256,8 @@ justify-content:flex-s; */
 
 .circle4 {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
