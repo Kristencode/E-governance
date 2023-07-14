@@ -191,14 +191,14 @@ body {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    height: 600px;
+    height: 500px;
     background:  #020066;
     margin-top: -18px;
   }
  
   .first-h1{
     font-family: Alegreya Sans SC;
-   font-size: 35px;
+   font-size: 50px;
     letter-spacing: 2px;
     color: white;
     margin-left: 10px;
@@ -210,12 +210,11 @@ body {
  .blue p{
     color: #F6B26B;
     margin-top: 0;
+    font-size: 18px;
+   
   }
 
-  .blue .span1{
-    font-size: 70px;
-
-  }
+  
 
   .middle{
     display: flex;
