@@ -26,10 +26,14 @@ time.innerHTML= d.toLocaleTimeString();
 //end of time function
 
 
-const container = document.querySelector('.container');
+// const container = document.querySelector('.container');
 
-let timeNow = new Date().getHours();
-let greetings = time >= 5 && timeNow < 12 ? "Good Morning , Mr Governor": timeNow >=
- 12 && timeNow < 18 ? "Good Afternoon Mr Governor,": "Good Evening, Mr Governor";
+// let timeNow = new Date().getHours();
+// let greetings =
+//   timeNow >= 5 && timeNow < 12
+//     ? "Good Morning, Mr. Governor"
+//     : timeNow >= 12 && timeNow < 18
+//     ? "Good Afternoon, Mr. Governor"
+//     : "Good Evening, Mr. Governor";
 
- container.innerHTML = `<h1>${greetings}<h1>`
+// container.innerHTML = `<h1>${greetings}</h1>`;
