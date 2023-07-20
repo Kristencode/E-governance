@@ -1,19 +1,35 @@
 .head{
-    display: flex;
-   align-items: center;
-   justify-content: space-between;
-   height: 80px;
-   background:  white;
-   width: 100%;
-   border-bottom:3px solid whitesmoke;
-  }
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 80px;
+ background:  white;
+ width: 100%;
+ border-bottom: 3px solid whitesmoke;
+ position: sticky;
+ top: 0;
+}
+
 
 .hlogo{
-    height: 58.499996185302734px;
-    width: 177px;
-    top: 15px;
-    border-radius: 0px;
+  height: 58.499996185302734px;
+  width: 177px;
+  top: 15px;
+  border-radius: 0px;
+  padding-right: 10px;
+}
 
+.head-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.close{
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
 }
 
 .arrow-back {

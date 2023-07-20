@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 .all{
@@ -22,12 +22,12 @@ img{
 }
 
 p{
-    margin-left: 80px;
-    margin-top: -30px;
     text-decoration:#F6B26B;
 }
 
 .form{
+    width: 500px;
+    margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -39,12 +39,12 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 200px;
+    width: 100%;
 }
 
 input{
-    width: 600px;
-    height: 20px;
+    width: 500px;
+    height: 50px;
     padding: 10px;
     margin-top: 30px;
     border-style:solid;
@@ -59,20 +59,17 @@ input{
     font-size: large;
 }
 .Btn{
+    width: 100%;
     display: flex;
     justify-content:center;
-    flex-direction: column;
-    background: white;
     height: 200px;
-    margin-top: -50px;
     color: white;
-    margin-left: 25%;
     text-decoration: none;
+    padding-top: 20px;
 }
 
 .Btn p{
     margin-top: 20px;
-    margin-left: 55%;
     color: #e07b0e ;
     font-size: larger;
     text-decoration: none;
@@ -94,7 +91,7 @@ button{
         background: rgb(22, 22, 80);
         border: 0;
         color: white;
-           margin-left: 33rem;
+        margin-left: auto;
 }
 
 .footer{
@@ -103,13 +100,35 @@ button{
     display: flex;
     align-items: center;
     background: #f0a24f;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer img{
+    width: 170px;
     height: 100%;
     margin-top: 10px;
     height: 50px;
     margin-left: 25px;
 
+}
+.SignUP{
+padding-top: 50px;
+width: fit-content;
+margin: auto;
+}
+.SignUP a{
+    color:#e07b0e;
+}
+@media (max-width:500px) {
+    input{
+        width: 90%;
+    }
+    .form{
+        width: 100%;
+    }
+    .Btn{
+        width: 90%;
+    }
 }
