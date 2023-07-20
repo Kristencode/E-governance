@@ -191,7 +191,7 @@ body {
   .box {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 600px;
     height: 87px;
     border: 1px solid #020066;
     background-color:#CCD7FF;
@@ -246,6 +246,10 @@ body {
     .container{
       flex-direction: column;
     }
+    .box{
+      width: 90%;
+      margin: auto;
+     }  
     }
   @media (max-width:400px) {
    
@@ -289,10 +293,7 @@ body {
         h2{
           font-size: 1.2rem;
         }
-   .box{
-    width: 90%;
-    margin: auto;
-   }     
+     
    .box p{
     padding-inline: 0;
     text-align: left;
