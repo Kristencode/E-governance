@@ -195,7 +195,7 @@ body {
   .box {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 99%;
     height: 87px;
     border: 1px solid #020066;
     background-color:#CCD7FF;
