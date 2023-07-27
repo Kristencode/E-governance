@@ -15,14 +15,14 @@
       //end of hamburger function
 
 
-  let time = document.getElementById("current_time")
+      let time = document.getElementById("current_time")
 
-setInterval(()=>{
-    let d= new Date();
-time.innerHTML= d.toLocaleTimeString();
-    
-}, 1000);
-
+      setInterval(()=>{
+          let d= new Date();
+      time.innerHTML= d.toLocaleTimeString();
+          
+      }, 1000);
+      
 //end of time function
 
 

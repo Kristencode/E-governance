@@ -88,33 +88,8 @@
     </div>
        
     <!-- end of the h1 -->
-  <div class="reven">
-    <h2>Revenue Generated <br> NGN 5.75 billion</h2>
-  </div>
-    
-
-  
-    </div>
-  </div> 
-    <div class="container">
-        <div class="left">
-            <p><span class="dot color1"></span>Tax Revenue: NGN 2 billion</p>
-            <p><span class="dot color2"></span>Federal Allocation: NGN 1.5 billion</p>
-            <p><span class="dot color3"></span>Internally Generated Revenue: NGN 500 million</p>
-            <p><span class="dot color4"></span>Natural Resources: NGN 500 million</p>
-            <p><span class="dot color5"></span>Investment/Commercial activities: NGN 500 million</p>
-            <p><span class="dot color6"></span>Grand/Donor Funding: NGN 500 million</p>
-            <p><span class="dot color7"></span>Borrowing/debt Finances: NGN 250 million</p>
-          </div>
-      <div class="right">
-        <canvas id="pieChart"></canvas>
-      </div>
-    </div>
-
-         
-      <!-- end of the h1 -->
     <div class="reven">
-      <h2>Budget Allocation <br> NGN 4.9 billion</h2>
+      <h2>Revenue Generated <br> NGN 5.75 billion</h2>
     </div>
       
   
@@ -123,41 +98,66 @@
     </div> 
       <div class="container">
           <div class="left">
-              <p><span class="dot color1" style="background-color: #CA498C;"></span>Education Sector: NGN 1.1 billion</p>
-              <p><span class="dot color2" style="background-color: #FDE3DF;"></span> Health Sector: NGN 800 million</p>
-              <p><span class="dot color3" style="background-color: #E6BFCE;"></span>Agriculture Sector: NGN 700 million</p>
-              <p><span class="dot color4" style="background-color: #CF9BBD;"></span>Infrastructure Development: NGN 1.2 billion </p>
-              <p><span class="dot color5" style="background-color: #801F6D;"></span>Tourism and Culture: NGN 450 million </p>
-              <p><span class="dot color6" style="background-color: #A2539B;"></span>Youth and Sports: NGN 650 million
-              </p>
+              <p><span class="dot color1"></span>Tax Revenue: NGN 2 billion</p>
+              <p><span class="dot color2"></span>Federal Allocation: NGN 1.5 billion</p>
+              <p><span class="dot color3"></span>Internally Generated Revenue: NGN 500 million</p>
+              <p><span class="dot color4"></span>Natural Resources: NGN 500 million</p>
+              <p><span class="dot color5"></span>Investment/Commercial activities: NGN 500 million</p>
+              <p><span class="dot color6"></span>Grand/Donor Funding: NGN 500 million</p>
+              <p><span class="dot color7"></span>Borrowing/debt Finances: NGN 250 million</p>
             </div>
-
-
-            
         <div class="right">
-          <canvas id="pieChart2"></canvas>
+          <canvas id="pieChart"></canvas>
         </div>
       </div>
-      <script>
-      const colors = ['#5E3FBE', '#F4F0FD', '#E5DAFB', '#3603A2', '#A88DEB', '#886BD8', '#472EA3'];
-const data = [2, 1.5, 0.5, 0.5, 0.5, 0.5, 0.25];
-const labels = [];
-
-// Create the first pie chart
-new Chart('pieChart', {
-  type: 'pie',
-  data: {
-    labels,
-    datasets: [{
-      data,
-      backgroundColor: colors,
-    }]
-  },
-  options: {
-    responsive: true,
-  }
-});
-
+  
+           
+        <!-- end of the h1 -->
+      <div class="reven">
+        <h2>Budget Allocation <br> NGN 4.9 billion</h2>
+      </div>
+        
+    
+      
+        </div>
+      </div> 
+        <div class="container">
+            <div class="left">
+                <p><span class="dot color1" style="background-color: #CA498C;"></span>Education Sector: NGN 1.1 billion</p>
+                <p><span class="dot color2" style="background-color: #FDE3DF;"></span> Health Sector: NGN 800 million</p>
+                <p><span class="dot color3" style="background-color: #E6BFCE;"></span>Agriculture Sector: NGN 700 million</p>
+                <p><span class="dot color4" style="background-color: #CF9BBD;"></span>Infrastructure Development: NGN 1.2 billion </p>
+                <p><span class="dot color5" style="background-color: #801F6D;"></span>Tourism and Culture: NGN 450 million </p>
+                <p><span class="dot color6" style="background-color: #A2539B;"></span>Youth and Sports: NGN 650 million
+                </p>
+              </div>
+  
+  
+              
+          <div class="right">
+            <canvas id="pieChart2"></canvas>
+          </div>
+        </div>
+        <script>
+        const colors = ['#5E3FBE', '#F4F0FD', '#E5DAFB', '#3603A2', '#A88DEB', '#886BD8', '#472EA3'];
+  const data = [2, 1.5, 0.5, 0.5, 0.5, 0.5, 0.25];
+  const labels = [];
+  
+  // Create the first pie chart
+  new Chart('pieChart', {
+    type: 'pie',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: colors,
+      }]
+    },
+    options: {
+      responsive: true,
+    }
+  });
+  
 // Create the second pie chart
 const colors2 = ['#CA498C', '#FDE3DF', '#E6BFCE', ' #CF9BBD', '#801F6D', '#A2539B'];
 const data2 = [1.1, 0.8, 0.7, 1.2, 0.45, 0.65];

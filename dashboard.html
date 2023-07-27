@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="/style/dashboard.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>Commissioner Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="img1">
+      <img src="/images/empiria (1).png" alt="logo">
+    </div>
+
+    <div class="time">
+      <h1 id="current_time">12:07:33</h1></div>
+
+  </header>
+
+  <section>
+  <div> 
+    <a href=""> 
+       <i class="fa-solid fa-arrow-left arrow-back"></i> 
+  </a>
+   </div>
+
+   <div class="frs">
+    <h2 > Health Sector</h2>
+   </div>
+
+   <div class="middle">
+    <div class="profile">
+      <img src="/images/Frame 23 (1).png" alt="picture">
+      <div class="para">
+      <h3>Godwin Francis</h3>
+      <h4>Commisionner for Health</h4>
+      <h5> Appointment date: 6 December 2022</h5>
+    </div>
+    </div>
+
+    <div>
+    <div class="budget">
+      <h1>Health 800 Million</h1>
+    </div>
+      <p> Budget Allocation for June</p>
+    </div>
+   </div>
+  </section>
+<!-- begining of section overview -->
+
+<div class="section_overview">
+  <div>
+    <h1>Section Overview</h1>
+  </div>
+
+ <div class="ovw">
+  <img src="/images/Vector (5).png" alt="picture">
+  <ul>
+    <li><span>Health Facilities</span>: 1,000, including 400 primary healthcare centers, 200 general hospitals, 
+      100 specialist hospitals, and 300 private clinics.</li>
+    <li><span>Healthcare workers</span>: There are approximately 5,000 healthcare workers in Plateau State, comprising doctors, nurses, midwives, laboratory technologists, 
+      and other allied health professionals.</li>
+    <li> <span>Patients treated</span>: In the last quarter, Plateau State treated over 200,000 
+      patients across all healthcare facilities.</li>
+  </ul>
+ </div>
+</div>
+
+<!-- pie chart -->
+
+<div class="reven">
+  <h2>Budget Breakdown<br> NGN 800 Million</h2>
+</div>
+   
+  <div class="container">
+      <div class="left">
+        <p><span class="dot color1"></span>Personnel costs/ salary payment: N400 million</p>
+        <p><span class="dot color2"></span>Medical supplies and equipment: N200 million</p>
+       <p><span class="dot color3"></span>  Infrastructure and facility improvements: N100 million</p>
+       <p><span class="dot color4"></span>Infrastructure and facility improvements: N100 million</p>
+       <p><span class="dot color5"></span>Research and development: NGN 50 million</p>
+        </div>
+    <div class="right">
+      <canvas id="pieChart"></canvas>
+    </div>
+  </div>
+
+
+  <div class="parg">
+    
+    <h3>1. Personnel costs: N400 million</h3>
+<p> - This would cover salaries and benefits for healthcare workers such as doctors, nurses, and support staff.</p>
+
+<h3>2. Medical supplies and equipment: N200 million</h3>
+<p>- This would include expenses for purchasing medical equipment like surgical tools, diagnostic machines, and hospital beds, as well as supplies like medications, vaccines, and personal protective equipment (PPE).</p>
+
+<h3>3. Infrastructure and facility improvements: N100 million</h3>
+<p>- This could be used to fund renovations or expansion of existing healthcare facilities, or to build new ones. It could also cover costs related to upgrading technology systems, improving accessibility for patients with disabilities, or ensuring compliance with safety standards.</p>
+
+<h3>4. Health education and promotion: N50 million</h3>
+<p>- This would involve campaigns aimed at educating the public about healthy habits and preventing diseases. Examples could include distributing informational materials, organizing health fairs, or hosting seminars on topics like nutrition or stress management.</p>
+
+<h3>5. Research and development: N50 million</h3>
+<p>- This could go towards funding research studies on new treatments or therapies, or developing innovative technologies for use in healthcare.</p>
+
+  </div>
+
+
+
+  <div class="btm">
+
+    <div class="btm-head">
+      <h1> Ongoing project</h1>
+    </div>
+
+
+    <div class="sub-btm">
+      <div class="div1">
+        <div class="one">
+        <img src="./images/lucide_mouse-pointer-2.png" alt="images">
+          <h1>Education Infrastructure Development, Jos North</h1>
+        </div>
+
+        <div class="last">
+          <p class="lst">status: 30% completed</p>
+          <p>Commissioned: May 2020</p>
+        </div>
+      </div>
+
+    
+    </div>
+    
+
+  </div>
+
+
+
+
+
+
+<script src="/script/dashboard.js"></script>
+</body>
+
