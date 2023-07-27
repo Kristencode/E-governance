@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/f-management.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Financial Management(health sector)</title>
+ 
+</head>
+<body>
+
+  <div class="head">
+    <div class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </div>
+    <div class="navbar">
+  
+      <div class="head-logo">
+          <img src="./images/empiria (1).png" alt="logo">
+          <img class="close" src="./images/icons8-x-48.png" alt="">
+      </div>
+      <ul class="mainMenu">
+        <div class="lIM">
+          <img src="./images/Vector.png" alt="">
+            <li><a href="#">Sector Overview</a></li>
+          </div>
+  
+          <div class="lIM">
+            <img src="./images/wallet.png" alt="">
+              <li><a href="#">Financial Management</a></li>
+            </div>
+  
+  
+                <div class="lIM">
+                  <img src="./images/Vector (1).png" alt="">
+                    <li><a href="#">Project Management</a></li>
+                  </div>
+  
+                  <div class="lIM">
+                    <img src="./images/material-symbols_event-upcoming-outline-rounded.png" alt="">
+                      <li><a href="#">Workers Management</a></li>
+                    </div>
+  
+                    <div class="lIM">
+                      <img src="./images/Vector (2).png" alt="">
+                        <li><a href="#">Communication/collaborations</a></li>
+                      </div>
+  
+                     
+  
+                        <div class="lIM">
+                          <img src="./images/logout.png" alt="">
+                            <li><a href="login.html">logout</a></li>
+                          </div>
+      
+      </ul>
+    </div>
+  
+  
+    <div class="hlogo">
+      <img src="./images/empiria (1).png" alt="">
+  
+      <h1 id="current_time">12:00</h1>
+      
+  </div>
+      </div>
+
+
+    <!-- end of header -->
+
+    <div class="h-com">
+        <h1>Financial Management</h1>
+        <p class="s-head" st>Health Sector</p>
+      </div>
+         
+      <!-- end of the h1 -->
+    <div class="reven">
+      <h2>Budget Allocation Break down<br>N800 million</h2>
+      <a href="#"><button class="update">Update</button></a>
+
+    </div>
+      
+  
+    
+      </div>
+    </div> 
+      <div class="container">
+          <div class="left">
+              <p><span class="dot color1"></span>Personnel costs/ salary payment: N400 million</p>
+              <p><span class="dot color2"></span>million Medical supplies and equipment: N200 million</p>
+              <p><span class="dot color3"></span> Infrastructure and facility improvements: N100 million</p>
+              <p><span class="dot color5"></span> Infrastructure and facility improvements: N100 million</p>
+              <p><span class="dot color6"></span> Research and development: N50 million</p>
+              
+            </div>
+        <div class="right">
+          <canvas id="pieChart"></canvas>
+        </div>
+      </div>
+  
+           
+        <!-- end of the h1 -->
+      <div class="reven">
+        <h2>Revenue Generated Break down<br>N800 million</h2>
+        <a href="#"><button class="update">Update</button></a>
+      </div>
+        
+    
+      
+        </div>
+      </div> 
+        <div class="container">
+            <div class="left">
+                <p><span class="dot color1" style="background-color: #CA498C;"></span>Sales Revenue: N35 million</p>
+                <p><span class="dot color2" style="background-color: #FDE3DF;"></span> Subscription Revenue: N5 million</p>
+                <p><span class="dot color3" style="background-color: #E6BFCE;"></span>Advertising Revenue: N6 million</p>
+                <p><span class="dot color4" style="background-color: #CF9BBD;"></span>Miscellaneous Revenue: N4 million </p>
+              </div>
+  
+  
+              
+          <div class="right">
+            <canvas id="pieChart2"></canvas>
+          </div>
+        </div>
+        <script>
+        const colors = ['#5E3FBE', '#F4F0FD', '#E5DAFB', '#3603A2', '#A88DEB'];
+  const data = [4, 2, 1, 1, 0.5 ];
+  const labels = [];
+  
+  // Create the first pie chart
+  new Chart('pieChart', {
+    type: 'pie',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: colors,
+      }]
+    },
+    options: {
+      responsive: true,
+    }
+  });
+  
+  // Create the second pie chart
+  const colors2 = ['#CA498C', '#FDE3DF', '#E6BFCE', ' #CF9BBD'];
+  const data2 = [35, 5, 6, 4 ];
+  const labels2 = [];
+  
+  new Chart('pieChart2', {
+    type: 'pie',
+    data: {
+      labels: labels2,
+      datasets: [{
+        data: data2,
+        backgroundColor: colors2,
+      }]
+    },
+    options: {
+      responsive: true,
+    }
+  });
+       
+        </script>
+   
+
+    <script src="script/comm.js"></script>
+
+</body>
+</html>
