@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="style/com-health-dash.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<title>com-health-dash</title>
+</head>
+<body>
+  <div class="head">
+    <div class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </div>
+    <div class="navbar">
+  
+      <div class="head-logo">
+          <img src="./images/empiria (1).png" alt="logo">
+          <img class="close" src="./images/icons8-x-48.png" alt="">
+      </div>
+      <ul class="mainMenu">
+        <div class="lIM">
+          <img src="./images/Vector.png" alt="">
+            <li><a href="#">Sector Overview</a></li>
+          </div>
+  
+          <div class="lIM">
+            <img src="./images/wallet.png" alt="">
+              <li><a href="#">Financial Management</a></li>
+            </div>
+  
+  
+                <div class="lIM">
+                  <img src="./images/Vector (1).png" alt="">
+                    <li><a href="#">Project Management</a></li>
+                  </div>
+  
+                  <div class="lIM">
+                    <img src="./images/material-symbols_event-upcoming-outline-rounded.png" alt="">
+                      <li><a href="#">Workers Management</a></li>
+                    </div>
+  
+                    <div class="lIM">
+                      <img src="./images/Vector (2).png" alt="">
+                        <li><a href="#">Communication/collaborations</a></li>
+                      </div>
+  
+                     
+  
+                        <div class="lIM">
+                          <img src="./images/logout.png" alt="">
+                            <li><a href="login.html">logout</a></li>
+                          </div>
+      
+      </ul>
+    </div>
+  
+  
+    <div class="hlogo">
+      <img src="./images/empiria (1).png" alt="">
+  
+      <h1 id="current_time">12:00</h1>
+      
+  </div>
+      </div>
+    <!-- end of header -->
+
+    <section class="blue">
+
+        <div class=" first-h1">
+            <h2 class="container">Health Sector </h2>
+
+            </div>
+
+            <div class="container">
+              <div class="content">
+                  <img src="images/Frame 23 (2).png" alt="Image" width="270px" height="248px" >
+                  <div class="texts">
+                      <p style="font-size: 25px; font-weight:500 ; color: white;">Godwin Francis</p>
+                      <p style="font-size: 20px; font-weight: 300; color: white;">Commissioner for Health</p>
+                      <p style="font-size:18px;font-weight: 200; color: white
+                      ;">Appointment date: 6 December 2022</p>
+                  </div>
+              </div>
+              <div class="color-box">
+                  <p>Health<br>
+                    N800<br>
+                    million</p>
+                    
+              </div>
+              
+          </div>
+          <p class="b-down">Budget Allocation for June  </p>
+  </section>
+       
+  <div class="sec">
+    <h3>Sector Overview</h3>
+  </div>
+     
+  <div class="containerr">
+    <img src="images/solar_hospital-bold.png" alt="Image">
+    <input type="text" placeholder="input details....">
+</div>
+
+<div class="reven">
+  <h2>Budget Break down <br> NGN 800 million</h2>
+</div>
+  
+
+
+  </div>
+</div> 
+  <div class="container">
+      <div class="left">
+          <p><span class="dot color1" style="background-color: #CA498C;"></span>Personnel costs/ salary payment: N400 million</p>
+          <p><span class="dot color2" style="background-color: #FDE3DF;"></span> Medical supplies and equipment: N200 million</p>
+          <p><span class="dot color4" style="background-color: #CF9BBD;"></span> Infrastructure and facility improvements: N100 million </p>
+          <p><span class="dot color5" style="background-color: #801F6D;"></span>Infrastructure and facility improvements: N100 million </p>
+          <p><span class="dot color6" style="background-color: #A2539B;"></span> Research and development: N50 million
+          </p>
+        </div>
+
+
+        <div class="right">
+          <canvas id="pieChart2"></canvas>
+        </div>
+      </div>
+
+      <script>
+      
+  
+  
+  
+  // Create the second pie chart
+  const colors2 = ['#CA498C', '#FDE3DF', ' #CF9BBD', '#801F6D', '#A2539B'];
+  const data2 = [4, 2, 1, 1, 0.5];
+  const labels2 = [];
+  
+  new Chart('pieChart2', {
+    type: 'pie',
+    data: {
+      labels: labels2,
+      datasets: [{
+        data: data2,
+        backgroundColor: colors2,
+      }]
+    },
+    options: {
+      responsive: true,
+    }
+  });
+       
+        </script>
+
+<div class="ongiong">
+  <h2 id="orange" style="font-size: 24px;">Ongion Projeect</h2>
+ </div>
+<!-- end of the h2 -->
+<div class="box">
+<div>
+    <img src="images/lucide_mouse-pointer-2.png" alt="Road Image" class="road-image">
+</div>
+<div class="road-info">
+  <h3>Health care Modernization project, renovation of Jos Central hospital</h3>
+  <div class="status-commissioned">
+    <p class="status">Status: 30% completed</p>
+    <p class="commissioned">Commissioned: May 2022</p>
+  </div>
+</div>
+</div>
+  <script src="script/comm.js"></script>
+ 
+</body>
+</html>
