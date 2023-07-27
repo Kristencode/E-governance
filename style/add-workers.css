@@ -1,0 +1,86 @@
+.head{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 80px;
+   background:  white;
+   width: 100%;
+   border-bottom:3px solid whitesmoke;
+  }
+
+.hlogo{
+    height: 58.499996185302734px;
+    width: 177px;
+    top: 15px;
+    border-radius: 0px;
+
+}
+
+.arrow-back {
+
+    height: 44px;
+    width: 150px;
+    padding-left: 87px;
+    padding-top: 50px;
+}
+
+.header {
+    text-align: center;
+  }
+  
+  .heading {
+    font-family: Hind;
+    font-size: 30px;
+    color: #F7840D;
+    font-weight: 600;
+  }
+  
+  
+  .detail {
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1249px;
+    height: 35px;
+    border: 1px solid #F6B26B;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color:#E4DDDD;
+    margin-left: 30px;
+  }
+
+
+  input {
+    outline: none;
+    border: none;
+    background: none;
+    width: 1249px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Hind;
+    line-height: 25.62px;
+    padding-left: 1rem;
+  }
+
+  .submit {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .add {
+
+   width: 8rem;
+   padding: .5rem;
+   border: 1px solid #070569;
+   background:#070569;
+   color: white;
+   border: 1px solid #070569;
+   border-radius: 5px;
+   
+  }
