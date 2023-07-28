@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-     font-family: Alegreya sans SC; 
+     /* font-family: Alegreya sans SC;  */
+     font-family: Hind;
   }
   
   
@@ -216,9 +217,7 @@ body {
 
   
    
-    body {
-      font-family: Arial, sans-serif;
-  }
+  
   
   .container {
       display: flex;
@@ -248,25 +247,28 @@ body {
     color: #FFFFFF;
     font-size:16px ;
     font-weight: 300;
-    margin-left: 940px;
-    margin-top: -5px;
+    margin-left: 990px;
+    margin-top: -90px;
+    font-family: Hind;
 
   }
 
   .color-box {
-      background-color: #CCD7FF; /* Set the desired background color */
+      background-color:white; /* Set the desired background color */
       padding: 20px;
       color: #020066; /* Set text color to white for better contrast */
       border-radius: 24px; /* Rounded corners for the colored box */
-      height: 200px;
-      width: 200px;
+      height: 100px;
+      width: 100px;
       margin-right: 152px;
       text-align: center;
       align-items: center;
       justify-content: center;
       display: flex;
       font-size: 35px;
-      line-height: 50px;
+      line-height: 30px;
+      font-family: Hind;
+      margin-top: 1rem;
 
   }
 
@@ -462,4 +464,7 @@ padding-top: 100px;
  }
 
 
-  
+  a {
+
+    text-decoration: none;
+  }
