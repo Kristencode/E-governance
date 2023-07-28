@@ -322,16 +322,13 @@ section p{
         
     }
 
-    
+
     .one img{
         margin-top: 1rem;
       height: 30px;
       height: 30px;
     }
   
-    
-  
-    
   .last{
     display: flex;
     justify-content: space-between;
@@ -342,3 +339,6 @@ section p{
    .lst{
     color: #020066;
    }
+
+   
+  
